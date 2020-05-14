@@ -17,7 +17,7 @@
         <!--<a href="https://github.com/MonliH"><img src="images/github_white.png" alt="github"></a>-->
         <div class="links">
             <a href="#about" class="link">About Me</a>
-            <a href="#projects" class="link">My Projects</a>
+            <!--<a href="#projects" class="link">My Projects</a>-->
             <a href="#contact" class="link">Contact Me</a>
         </div>
     </div>
@@ -56,4 +56,32 @@
             </div>
         </div>
     </div>
+
+    <div class="page" id="contact">
+        <div class="contact">
+            <div class="title">Contact Me</div>
+            <form
+                action="https://formspree.io/xbjzleev"
+                method="POST"
+                class="contact-form"
+            >   
+                <div id="entry-container">
+                    <label class="entry">
+                        <div class="entry-text"> Your Email</div>
+                        <input type="text" name="_replyto" id="email" class="entry-input" required>
+                    </label>
+                    <label class="entry">
+                        <div class="entry-text">Your Name</div>
+                        <input type="text" name="name" class="entry-input" required>
+                    </label>
+                </div>
+                <label id="message">
+                    <div class="entry-text">Your message</div>
+                    <textarea name="message" style="resize: none;" id="message-textarea" required></textarea>
+                </label>
+                <button type="submit" id="send-button">Send</button>
+            </form>
+        </div>
+    </div>
+    
 </html>
