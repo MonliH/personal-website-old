@@ -226,6 +226,7 @@ body {
   border: 2px solid;
   color: white;
   border-radius: 2px;
+  padding-left: 7px;
 }
 
 #message {
@@ -267,4 +268,5 @@ body {
   border: 2px solid;
   color: white;
   border-radius: 2px;
+  padding: 7px;
 }
