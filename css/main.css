@@ -4,9 +4,8 @@
 }
 
 html {
-  overflow: hidden;
   height: 100%;
-  background: rgb(38, 38, 38);
+  background-color: rgb(29, 29, 29);
 }
 
 body {
@@ -17,7 +16,7 @@ body {
 }
 
 .page {
-  background-color: #1D1D1D;
+  background-color: rgb(29, 29, 29);
   height: 100vh;
   padding-top: 100px;
   margin-top: -100px;
@@ -169,6 +168,7 @@ body {
 .about {
   text-align: center;
   transform: translateY(0);
+  background-color: rgb(29, 29, 29);
 }
 
 .about-text {
