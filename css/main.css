@@ -4,25 +4,34 @@
 }
 
 html {
+  background-color: #1D1D1D;
   height: 100%;
-  background-color: rgb(29, 29, 29);
+  overflow-x: hidden;
 }
 
 body {
+  background-color: #1D1D1D;
   overflow: auto;
+  overflow-x: hidden;
   margin: 0;
   height: 100%;
   padding: 0;
 }
 
 .page {
-  background-color: rgb(29, 29, 29);
+  background-color: #1D1D1D;
   height: 100vh;
   padding-top: 100px;
   margin-top: -100px;
 }
 
-.title_image {
+#front-page {
+  display: flex;
+  flex-direction: row;
+  background: #262626;
+}
+
+#title-image {
   position: relative;
   height: 70vh;
   width: 70vh;
@@ -33,25 +42,24 @@ body {
   transition: 0.8s;
   transform: translateY(0);
   z-index: 10;
+  margin-left: -100px;
 }
 
-.title_image:hover {
+#title_image:hover {
   filter: saturate(125%);
 }
 
-.title_page {
-  background: #262626;
+#title-page {
   top: 0;
   left: 0;
   height: 70vh;
   width: 100vw;
-  margin: 0;
   padding: 0;
 }
 
 .header {
   overflow: hidden;
-  background-color: rgb(29, 29, 29);
+  background-color: #1D1D1D;
   background-color: rgba(29, 29, 29, 0.5);
   border-bottom: 1px solid #171717;
   padding-left: 30px;
@@ -102,6 +110,7 @@ body {
 .gradient {
   position: relative;
   height: 30vh;
+  display: block;
   background: rgb(38, 38, 38);
   background: -moz-linear-gradient(180deg, rgba(38, 38, 38, 1) 0%, rgba(29, 29, 29, 1) 100%);
   background: -webkit-linear-gradient(180deg, rgba(38, 38, 38, 1) 0%, rgba(29, 29, 29, 1) 100%);
@@ -112,7 +121,7 @@ body {
 .title-name-div {
   position: relative;
   padding-top: 200px;
-  padding-left: 100px;
+  margin-left: 10vw;
   z-index: 0;
 }
 
@@ -169,7 +178,7 @@ body {
 .about {
   text-align: center;
   transform: translateY(0);
-  background-color: rgb(29, 29, 29);
+  height: 100%;
 }
 
 .about-text {
@@ -182,7 +191,7 @@ body {
 .about-image {
   height: 40vh;
   width: 40vh;
-  margin-right: 100px;
+  margin-right: 50px;
 }
 
 .about-me-section {
@@ -195,6 +204,7 @@ body {
 .contact {
   margin-top: -100px;
   padding-top: 90px;
+  height: 100%;
 }
 
 .contact-form {
@@ -221,7 +231,7 @@ body {
 
 .entry-input {
   height: 35px;
-  background-color: rgb(29, 29, 29);
+  background-color: #1D1D1D;
   background-color: rgba(0, 0, 0, 0);
   border: 2px solid;
   color: white;
@@ -246,7 +256,7 @@ body {
   height: 40px;
   border: 2px solid;
   color: white;
-  background-color: rgb(29, 29, 29);
+  background-color: #1D1D1D;
   background-color: rgba(0, 0, 0, 0);
   border-radius: 2px;
   backface-visibility: hidden;
@@ -263,7 +273,7 @@ body {
 
 #message-textarea {
   height: 250px;
-  background-color: rgb(29, 29, 29);
+  background-color: #1D1D1D;
   background-color: rgba(0, 0, 0, 0);
   border: 2px solid;
   color: white;
