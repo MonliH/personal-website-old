@@ -198,7 +198,7 @@ video  {
 .about-image {
   height: 50vh;
   width: 50vh;
-  filter: brightness(1.1) contrast(105%) saturate(110%);
+  filter: brightness(1.1) contrast(105%) saturate(135%);
 }
 
 .about-me-section {
