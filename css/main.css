@@ -18,6 +18,13 @@ body {
   padding: 0;
 }
 
+video  {
+  display: block;
+   -moz-user-select: none;
+   -webkit-user-select: none;
+   user-select:none;
+}
+
 .page {
   background-color: #1D1D1D;
   height: 100vh;
@@ -189,9 +196,9 @@ body {
 }
 
 .about-image {
-  height: 40vh;
-  width: 40vh;
-  margin-right: 50px;
+  height: 50vh;
+  width: 50vh;
+  filter: brightness(1.1) contrast(105%) saturate(110%);
 }
 
 .about-me-section {

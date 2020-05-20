@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="./css/main.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+        <script src="js/about_me_video.js"></script>
     </head>
     
     <div class="header">
@@ -43,7 +45,11 @@
             <div class="about">
                 <div class="title">About Me </div>
                 <div class="about-me-section">
-                    <img src="images/image.png" alt="My blender simulation" class="about-image">
+                    <video class="about-image" id="about-vid" plays-inline muted loop playsinline>
+                        <source src="images/about_me.webm" type="video/webm">
+                            <source src="images/about_me.mp4" type="video/mp4">
+                        Your browser does not support the video element.
+                    </video>
                     <div class="about-text">
                         Hey! My name is Jonathan Li.
                         <br><br>
@@ -56,33 +62,31 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="page" id="contact">
-        <div class="contact">
-            <div class="title">Contact Me</div>
-            <form
-                action="https://formspree.io/xbjzleev"
-                method="POST"
-                class="contact-form"
-            >   
-                <div id="entry-container">
-                    <label class="entry">
-                        <div class="entry-text"> Your Email</div>
-                        <input type="text" name="_replyto" id="email" class="entry-input" placeholder="Email" required>
+        <div class="page" id="contact">
+            <div class="contact">
+                <div class="title">Contact Me</div>
+                <form
+                    action="https://formspree.io/xbjzleev"
+                    method="POST"
+                    class="contact-form"
+                >   
+                    <div id="entry-container">
+                        <label class="entry">
+                            <div class="entry-text"> Your Email</div>
+                            <input type="text" name="_replyto" id="email" class="entry-input" placeholder="Email" required>
+                        </label>
+                        <label class="entry">
+                            <div class="entry-text">Your Name</div>
+                            <input type="text" name="name" class="entry-input" placeholder="Name" required>
+                        </label>
+                    </div>
+                    <label id="message">
+                        <div class="entry-text">Your message</div>
+                        <textarea name="message" style="resize: none;" id="message-textarea" placeholder="Message" required></textarea>
                     </label>
-                    <label class="entry">
-                        <div class="entry-text">Your Name</div>
-                        <input type="text" name="name" class="entry-input" placeholder="Name" required>
-                    </label>
-                </div>
-                <label id="message">
-                    <div class="entry-text">Your message</div>
-                    <textarea name="message" style="resize: none;" id="message-textarea" placeholder="Message" required></textarea>
-                </label>
-                <button type="submit" id="send-button">Send</button>
-            </form>
+                    <button type="submit" id="send-button">Send</button>
+                </form>
+            </div>
         </div>
     </div>
-    
 </html>
