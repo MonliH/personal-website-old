@@ -246,6 +246,66 @@ video  {
   padding-left: 7px;
 }
 
+.fit {
+  height: fit-content;
+}
+
+.project {
+  height: fit-content;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.project-heading {
+  margin-top: 25px;
+  font: 35px Montserrat, sans-serif;
+  color: #15A1FF;
+  text-decoration: none;
+}
+
+.project-text {
+  margin-top: 5px;
+  font: 700 16px Lato, sans-serif;
+  color: white;
+  max-width: 250px;
+  margin-right: 50px;
+}
+
+.project-tech {
+  margin-top: 5px;
+  font: 300 16px Lato, sans-serif;
+  color: white;
+  max-width: 300px;
+  margin-right: 50px;
+}
+
+.project-image {
+  flex-grow: 0;
+  height: 25vh;
+  width: auto;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+
+.project-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#projects {
+  height: fit-content;
+  margin-bottom: 200px;
+}
+
 #message {
   display: flex;
   flex-direction: column;
