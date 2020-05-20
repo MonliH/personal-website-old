@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function(event) { 
     let video = document.getElementById("about-vid");
-    video.addEventListener("mouseenter", async function() {
+    video.addEventListener("mouseenter", function() {
         video.play();
     });
-      
-    video.addEventListener("mouseleave", async function() {
+
+    video.addEventListener("mouseleave", function() {
         video.pause();
     });
 });
