@@ -261,7 +261,21 @@ video  {
   margin-top: 25px;
   font: 35px Montserrat, sans-serif;
   color: #15A1FF;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: 0.5s;
+
+  /*add those for opera and mozilla support*/
+  -webkit-text-decoration-color: transparent;
+  -moz-text-decoration-color: transparent;
+}
+
+.project-heading:hover {
+  text-decoration-color: #15A1FF;
+ 
+ /*add those for opera and mozilla support*/
+ -webkit-text-decoration-color: #15A1FF;
+ -moz-text-decoration-color: #15A1FF;
 }
 
 .project-text {
