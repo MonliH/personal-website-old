@@ -135,6 +135,8 @@ video  {
 .name-title:nth-child(1) {
   font: bold 70px Montserrat, sans-serif;
   color: #ff3d0d;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
   width: fit-content;
   position: relative;
   background: rgb(56, 56, 56);
@@ -149,6 +151,8 @@ video  {
 .name-title:nth-child(2) {
   font: bold 70px Montserrat, sans-serif;
   color: #ff3d0d;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
   width: fit-content;
   position: absolute;
   top: 290px;
@@ -171,6 +175,8 @@ video  {
 
 .title {
   height: 75px;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
   width: fit-content;
   font: bold 60px Montserrat, sans-serif;
   color: #ff3d0d;
