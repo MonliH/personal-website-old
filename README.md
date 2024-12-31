@@ -1,3 +1,3 @@
 # personal-website
 
-My personal website. Live at [monolith.vision](https://monolith.vision).
+My personal website. Live at [monlih.github.io/personal-website-old](https://monlih.github.io/personal-website-old/).
